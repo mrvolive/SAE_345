@@ -1,0 +1,5 @@
+"id_adresse","nom_adresse","rue","code_postal","ville","valide"
+1,Crêperie les Tonnelles,"101 Av. du Maréchal Foch","92210",Saint-Cloud,1
+2,Residhome Paris Issy-les-Moulineaux,"22-24 Rue du Passeur de Boulogne","92130",Issy-les-Moulineaux,1
+3,Fausse adresse,Boulevard not,"06401",Cdds,0
+4,DSI Group,"41 Av. du Général Leclerc","92350",Le Plessis-Robinson,1

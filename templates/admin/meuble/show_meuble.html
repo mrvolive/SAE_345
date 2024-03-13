@@ -1,0 +1,111 @@
+{#
+meubles (tableau de dictionnaires)
+* tableau de "meuble"
+    * id_meuble, nom, type_meuble_id, prix_meuble
+    * option :
+        * stock ,
+        * nb_avis ,
+        * nb_declinaisons
+#}
+{% extends 'admin/layout_admin.html' %}
+
+{% block title %}
+    <title>afficher les meubles</title>
+{% endblock %}
+
+{% block body %}
+    <h3>meuble</h3>
+    <a class="btn btn-outline-success" href="/admin/meuble/add">ajouter un meuble</a>
+    <br><br>
+    {#{{ meubles }}#}
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th>nom</th>
+            <th>id</th>
+            <th>type meuble (id)</th>
+            <th>prix</th>
+            <th style="color: green">stock</th>
+            <th>nouveaux avis</th>
+            <th>nb déclinaisons</th>
+            <th>image</th>
+            <th>opération</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% if meubles | length >= 1 %}
+            {% for ligne in meubles %}
+                <tr>
+                    <td>{{ ligne.nom_meuble }}</td>
+                    <td>{{ ligne.id_meuble }}</td>
+                    <td><span style="color: red">{{ ligne.libelle_type_meuble }}</span> ({{ ligne.type_id }})</td>
+                    <td>{#{ ligne.prix_meuble }#} {{ "{:,.2f} €".format(ligne.prix_meuble) }}</td>
+                    <td>
+                        {% if ligne.stock is defined %}
+                            {% if ligne.stock != None %}
+                                {% if ligne.stock > 0 %}
+                                    <strong style="color: green">{{ ligne.stock }}</strong>
+                                    {% if ligne.min_stock is defined  and ligne.min_stock <= 0 %}
+                                        <span style="color: #fd7e14">(⚠️ déclinaison(s) en rupture)</span>
+                                    {% endif %}
+                                {% else %}
+                                    <strong class="text-muted">meuble momentanément indisponible</strong>
+                                {% endif %}
+                            {% else %}
+                                <strong class="text-muted">déclinaison ND</strong>
+                            {% endif %}
+                        {% else %}
+                            ND
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if ligne.nb_commentaires_nouveaux is defined %}
+                            {% if ligne.nb_commentaires_nouveaux > 0 %}
+                                <a href="/admin/meuble/commentaires?id_meuble={{ ligne.id_meuble }}"><strong
+                                        style="color: red">{{ ligne.nb_commentaires_nouveaux }} avis non lu(s)
+                                    ⚠️ </strong></a>
+                            {% else %}
+                                <strong class="text-muted"></strong>
+                            {% endif %}
+                        {% else %}
+                            nb_avis ND
+                        {% endif %}
+                    </td>
+
+                    {# <td>{{ ligne.date_create }} {{ ligne.date_create.strftime('%d-%m-%Y') }} </td> #}
+                    <td>
+                        {% if ligne.nb_declinaisons is defined %}
+                            {{ ligne.nb_declinaisons }}
+                        {% else %}
+                            decli ND
+                        {% endif %}
+                    </td>
+                    <td>{{ ligne.image_meuble }}
+                        {% if ligne.image_meuble is not none %}
+                            <img style="width:40px;height:40px"
+                                 src="{{ url_for('static', filename = 'images/' + ligne['image_meuble']) }}"
+                                 alt="image  de {{ ligne.nom }}">
+                        {% else %}
+                            <img style="width:40px;height:40px"
+                                 src="{{ url_for('static', filename='images/no_photo.jpeg') }}" alt="pas d image">
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a class="btn btn-outline-danger" href="/admin/meuble/delete?id_meuble={{ ligne.id_meuble }}"
+                           onclick="return confirm('Are you sure?')">supprimer</a>
+                        <a class="btn btn-outline-warning" href="/admin/meuble/edit?id_meuble={{ ligne.id_meuble }}">editer</a>
+                        <a class="btn btn-outline-warning"
+                           href="/admin/meuble/commentaires?id_meuble={{ ligne.id_meuble }}">commentaires</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        {% else %}
+            <tr>
+                <td>
+                    pas de meuble
+                </td>
+            </tr>
+        {% endif %}
+        </tbody>
+    </table>
+{% endblock %}

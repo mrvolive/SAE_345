@@ -1,0 +1,25 @@
+{% extends 'admin/layout_admin.html' %}
+
+{% block title %}
+    <title>ajouter un type de meuble</title>
+{% endblock %}
+
+{% block body %}
+    {#  <h2>ajout d'un type de meuble</h2>#}
+    {% if error %}
+        <p class=error><strong>Error:</strong> {{ error }}
+    {% endif %}
+    <form method="post" action="/admin/type-meuble/add" {#action="{{ url_for('valid_add_type_meuble') }}#}>
+        <fieldset>
+            <legend> Créer un type de meuble</legend>
+            <div class="mb-3">
+                <label class="form-label" for="libelle">libellé</label><br>
+                <input class="form-select" id="libelle" type="text" name="libelle" size="18" value=""
+                       placeholder="Saisir le libelle du type de meuble"><br>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Valider</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

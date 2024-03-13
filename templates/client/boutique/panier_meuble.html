@@ -1,0 +1,105 @@
+{# meubles_panier : tableau de dictionnaires
+* dictionnaire : nom quantite prix meuble_id [stock]
+*
+#}
+
+{% extends "client/layout_client.html" %}
+{% block body %}
+<div class="container">
+    <div class="row align-self-right">
+        {% include('client/boutique/_panier.html') %}
+        <div class="col">
+            <h3>Les filtres</h3>
+            meubles dont le nom est composé par :<br>
+            {% include('client/boutique/_filtre.html') %}
+        </div>
+    </div>
+
+    <div class="bg-light p-3">
+        <h1>Les meubles</h1>
+    </div>
+
+    <div class="row">
+        {% for meuble in meubles %}
+        <div class="card col-4 mt-4 p-1">
+            <div class="card-body border-dark rounded p-1">
+                <a href="/client/meuble/details?id_declinaison_meuble={{ meuble.id_declinaison_meuble }}">
+                    <h3 class="card-title">
+                        <span style="color: #0b2e13">{{ meuble.nom_meuble }}</span><br>
+                        {{ meuble.prix_declinaison }}
+                        €
+                    </h3>
+                    {% if meuble.image_declinaison is not none %}
+                    <img class="card-img-top rounded mx-auto d-block" style="width:100px;height:100px"
+                        src="{{ url_for('static', filename = 'images/') }}{{ meuble.image_declinaison }}"
+                        alt="image  de {{ meuble.nom_meuble }}">
+                    {% else %}<img class="card-img-top rounded mx-auto d-block" style="width:100px;height:100px"
+                        src="{{ url_for('static', filename='images/no_photo.jpeg') }}"
+                        alt="image  de {{ meuble.nom_meuble }}">
+                    {% endif %}
+                    <hr>
+                </a>
+                <div class="row">
+                    {# #}
+                    {% if meuble.stock is defined and meuble.stock != None %}
+                    {# #} {% if meuble.stock > 0 %}
+                    <form action="/client/panier/add" method="post" class="col-5">
+                        <input type="hidden" name="id_declinaison_meuble" value="{{ meuble.id_declinaison_meuble }}">
+                        <div class="input-group">
+                            <button class="btn  btn-success" id="button-addon1">
+                                <i class="fas fa-shopping-cart">Ajouter</i>
+                            </button>
+                            <input type="number" id="input-{{ meuble.id_declinaison_meuble }}" step="1" min="0"
+                                max="{{ meuble.stock }}" class="form-control" value="1" name="quantite"
+                                aria-describedby="button-addon1">
+                        </div>
+                    </form>
+                    {# #} {% endif %}
+                    {# #} {% endif %}
+                    <div class="col-2 align-content-end">
+                        {% if meuble.liste_envie is defined %}
+                        {% if meuble.liste_envie== 1 %}
+                        <a href="/client/envie/add?id_declinaison_meuble={{ meuble.id_declinaison_meuble }}"
+                            style="text-decoration: none">💛</a>
+                        {% else %}
+                        <a href="/client/envie/add?id_declinaison_meuble={{ meuble.id_declinaison_meuble }}"
+                            style="text-decoration: none">🤍</a>
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                {% if meuble.stock is defined and meuble.stock != None %}
+                {% if meuble.stock > 0 %}
+                <small class="text-muted">Stock restant : {{ meuble.stock }}</small>
+                {% else %}
+                <small class="text-muted">meuble momentanément indisponible</small>
+                {% endif %}
+                {% if meuble.nb_declinaison is defined and meuble.nb_declinaison != None %}
+                ({{ meuble.nb_declinaison }} d.)
+                {% endif %}
+                <br>
+                {% endif %}
+                {% if meuble.nb_notes is defined %}
+                {% if meuble.nb_notes > 0 %}
+                <a href="/client/meuble/details?id_meuble={{ meuble.id_meuble }}">
+                    <span style="color: #3A7734"> note : {{ "{:,.1f}".format(meuble.moy_notes) }}({{ meuble.nb_notes
+                        }})</span>
+                </a>
+                {% endif %}
+                {% endif %}
+                {% if meuble.nb_avis is defined %}
+                {% if meuble.nb_avis > 0 %}
+                <a href="/client/meuble/details?id_meuble={{ meuble.id_meuble }}">
+                    <span style="color: #3A7734">({{ meuble.nb_avis }} avis)</span>
+                </a>
+                {% endif %}
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{# {{ meubles | pprint }}#}
+{% endblock %}

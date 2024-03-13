@@ -1,0 +1,21 @@
+"id_meuble","nom_meuble","disponible","prix_meuble","description_meuble","image_meuble","type_meuble_id"
+1,Etagère déstructuré,1,819.00,Une étagère fort sympathique.,"1.jpg",1
+2,Table en sheesham,1,419.00,C'est une table... et elle est en sheesham...,"2.jpg",2
+3,Buffet 2 portes 3 tiroirs,1,799.00,Plus de porte que dans une voiture familiale.,"3.jpg",3
+4,Bibliothèque personnalisable,1,976.00,On sait que vous ne lirez pas ce qu'il y a dedans.,"4.jpg",4
+5,Vitrine en verre,1,700.00,Parce qu'on ne voyait pas à travers celle en bois.,"13.jpg",5
+6,Banc TV,1,345.00,C'est pour la télé pas pour vous ! Enfin je crois...,"14.jpg",2
+7,Vitrine figurine,1,518.00,En voilà un qui a un hobbie qui ne plait pas à sa femme.,"15.jpg",5
+8,Chaise Venus,1,159.00,On voulait l'appeler Uranus mais ça sonnait pas aussi sérieux...,"16.jpg",6
+9,Chaise en rotin,1,226.00,"Et pas en pétin, ahahah...","18.jpg",6
+10,Chaise simple,1,56.00,Il faut vraiment que j'explique ce que c'est ?,"19.jpg",6
+11,Chaise jardin,1,65.00,"Une chaise mais à mettre dans le jardin... Ou pas, je m'en fiche","23.jpg",6
+12,Table longue,1,895.00,Vous pouvez surement vous allongez dessus aussi,"29.jpg",2
+13,Table à manger,1,950.00,"Cette table là, c'est uniquement pour manger !","30.jpg",2
+14,Table rustique,1,1450.00,Elle est vieille mais rustique c'est plus vendeur.,"31.jpg",2
+15,Table ronde,1,425.00,Mais toujours pas de trace du graal... Quelqu'un a vu Perceval ?,"32.jpg",2
+16,Table en dur,1,2250.00,Parce que les tables molles tiennent pas aussi bien.,"33.jpg",2
+17,Table bar,1,1400.00,Pour un bon ricard !,"34.jpg",2
+18,Bibliothèque escalier,1,750.00,"Je crois qu'on peut monter dessus, j'ai juste pas d'étage chez moi","35.jpg",4
+19,Pouf plastique,1,75.00,Et non une femme de petite vertue ayant fait de la chirurgie esthétique,"38.jpg",7
+20,Pouf Velour,1,150.00,C'est tout doux !,"43.jpg",7

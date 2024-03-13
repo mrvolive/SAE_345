@@ -1,0 +1,36 @@
+Pour effectuer une estimation des charges selon la méthode Top-Down pour le projet défini dans le cahier des charges, nous allons procéder de manière globale, en commençant par les estimations de haut niveau basées sur les informations disponibles et en les décomposant ensuite en éléments plus détaillés. Cette méthode permet d'obtenir une estimation rapide et basée sur l'expérience ainsi que sur des données historiques similaires.
+
+### 1. Estimation Globale
+
+Le budget total du projet est fixé à 50 000 euros. Cette enveloppe budgétaire servira de point de départ pour notre estimation Top-Down.
+
+### 2. Répartition du Budget
+
+La répartition du budget selon les grandes catégories de dépenses pourrait ressembler à ce qui suit, en se basant sur des projets similaires et des standards de l'industrie :
+
+- **Main d’œuvre (Développement, Conception, Gestion de Projet)** : 70% du budget total, soit 35 000 euros.
+- **Formation et Support Externe** : 10% du budget total, soit 5 000 euros.
+- **Frais de Déplacement** : 2% du budget total, soit 1 000 euros.
+- **Achat/Location Ressources Matérielles et Logicielles** : 10% du budget total, soit 5 000 euros.
+- **Communication et Autres Dépenses** : 8% du budget total, soit 4 000 euros.
+
+### 3. Estimation des Charges par Jour.Homme
+
+En se basant sur le coût moyen d'un jour.homme (par exemple, 400 euros), on peut estimer le nombre total de jours.homme alloués au projet :
+
+\[ \text{Nombre de jours.homme pour la main d’œuvre} = \frac{\text{Budget Main d’œuvre}}{\text{Coût journalier par personne}} \]
+
+\[ \text{Nombre de jours.homme pour la main d’œuvre} = \frac{35\,000\,€}{400\,€/jour} = 87.5 \text{ jours.homme} \]
+
+### 4. Répartition des Charges par Activité
+
+La répartition des charges par activité peut être estimée comme suit :
+
+- **Développement et Codage** : 60% des jours.homme, soit environ 52 jours.homme.
+- **Conception UX/UI et Graphique** : 15% des jours.homme, soit environ 13 jours.homme.
+- **Gestion de Projet et Coordination** : 10% des jours.homme, soit environ 9 jours.homme.
+- **Tests et Validation** : 15% des jours.homme, soit environ 13 jours.homme.
+
+### Conclusion
+
+Cette estimation Top-Down fournit une vue d'ensemble des charges et du coût associé au projet basé sur le budget total disponible et une répartition estimée des dépenses. Il est important de noter que cette approche peut nécessiter des ajustements au fur et à mesure de l'avancement du projet et de la disponibilité de données plus précises.

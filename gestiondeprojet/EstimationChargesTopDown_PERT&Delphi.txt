@@ -1,0 +1,38 @@
+Pour appliquer une estimation des charges selon l'approche Top-Down avec utilisation de l'analogie, du jugement d'expert, et de la formule de PERT, nous allons suivre les étapes suivantes pour le projet de site e-commerce décrit dans le cahier des charges :
+
+### 1. Analogie et Comparaison
+
+#### a) Recherches projets similaires
+
+Supposons que nous avons trouvé trois projets similaires en termes de technologie, activités, et cycle de vie. Ces projets avaient des budgets de 40 000 €, 55 000 € et 70 000 €.
+
+#### b) Taille, charge et coût déduit
+
+En supposant que notre projet est de complexité moyenne par rapport aux exemples trouvés, nous appliquons un coefficient d'adaptation pour ajuster les coûts à notre contexte spécifique. Supposons un coefficient de 1.1 en raison d'exigences légèrement plus élevées en matière de sécurité et de personnalisation.
+
+#### c) Confronter 3 estimations et lissage par formule de PERT
+
+\[ E = \frac{(O + 4M + P)}{6} \]
+
+Où :
+- O (Évaluation Optimiste) = 40 000 €
+- M (Évaluation Moyenne) = 55 000 €
+- P (Évaluation Pessimiste) = 70 000 €
+
+\[ E = \frac{(40 000 + (4 \times 55 000) + 70 000)}{6} \]
+\[ E = \frac{(40 000 + 220 000 + 70 000)}{6} \]
+\[ E = \frac{330 000}{6} = 55 000 € \]
+
+Après ajustement avec le coefficient d'adaptation:
+
+\[ E_{ajusté} = 55 000 \times 1.1 = 60 500 € \]
+
+### 2. Jugement d’Expert
+
+Des experts internes et externes sont consultés pour valider l'estimation. En utilisant la méthode Delphi, après plusieurs tours, ils s'accordent sur une estimation moyenne similaire ajustée pour les spécificités du projet Meuuuhble.
+
+### Estimation Globale des Charges
+
+En se basant sur l'approche Top-Down et les ajustements faits par les experts, l'estimation globale des charges pour le projet s'établit autour de **60 500 €**. Cette estimation tient compte des coûts de main-d'œuvre, des ressources matérielles et logicielles nécessaires, ainsi que des coûts annexes comme la formation et le support externe.
+
+Il est important de noter que cette estimation est basée sur des hypothèses simplificatrices et pourrait nécessiter des ajustements à mesure que le projet avance et que de nouvelles informations deviennent disponibles.

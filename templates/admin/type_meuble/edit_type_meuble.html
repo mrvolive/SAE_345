@@ -1,0 +1,27 @@
+{% extends 'admin/layout_admin.html' %}
+
+{% block title %}
+    <title>modifier un type de meuble</title>
+{% endblock %}
+
+{% block body %}
+    {% if error %}
+        <p class=error><strong>Error:</strong> {{ error }}
+    {% endif %}
+    <form method="post" action="/admin/type-meuble/edit">
+        <fieldset>
+            <legend> Modifier un type de meuble</legend>
+            <div class="mb-3">
+                <input type="hidden" name="id_type_meuble" size="18" value="{{ type_meuble.id_type_meuble }}"
+                       id="id">
+                <label for="libelle">libellé</label><br>
+
+                <input class="form-select" type="text" name="libelle" size="18" value="{{ type_meuble.libelle }}"
+                       id="libelle"><br>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Valider</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

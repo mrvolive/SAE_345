@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Site Web Meuuuhble" company="" webLink="http://" view-date="2023-08-28" view-index="2" gantt-divider-location="463" resource-divider-location="300" version="3.3.3305" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="255" order="0"/>
+        <field id="tpd4" name="Date de début" width="96" order="1"/>
+        <field id="tpd5" name="Date de fin" width="96" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#66ff66 #ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="199" order="0"/>
+        <field id="1" name="Rôle par défaut" width="82" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Flag1" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc1" name="Flag2" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc2" name="Flag3" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc3" name="Flag4" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc4" name="Flag5" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc5" name="Flag6" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc6" name="Flag7" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc7" name="Flag8" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc8" name="Flag9" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc9" name="Flag10" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc10" name="Number1" type="custom" valuetype="double"/>
+            <taskproperty id="tpc11" name="Number2" type="custom" valuetype="double"/>
+            <taskproperty id="tpc12" name="Number3" type="custom" valuetype="double"/>
+            <taskproperty id="tpc13" name="Number4" type="custom" valuetype="double"/>
+            <taskproperty id="tpc14" name="Number5" type="custom" valuetype="double"/>
+            <taskproperty id="tpc15" name="Cost1" type="custom" valuetype="double"/>
+            <taskproperty id="tpc16" name="Cost2" type="custom" valuetype="double"/>
+            <taskproperty id="tpc17" name="Cost3" type="custom" valuetype="double"/>
+            <taskproperty id="tpc18" name="Cost4" type="custom" valuetype="double"/>
+            <taskproperty id="tpc19" name="Cost5" type="custom" valuetype="double"/>
+            <taskproperty id="tpc20" name="Cost6" type="custom" valuetype="double"/>
+            <taskproperty id="tpc21" name="Cost7" type="custom" valuetype="double"/>
+            <taskproperty id="tpc22" name="Cost8" type="custom" valuetype="double"/>
+            <taskproperty id="tpc23" name="Cost9" type="custom" valuetype="double"/>
+            <taskproperty id="tpc24" name="Cost10" type="custom" valuetype="double"/>
+            <taskproperty id="tpc25" name="Flag11" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc26" name="Flag12" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc27" name="Flag13" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc28" name="Flag14" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc29" name="Flag15" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc30" name="Flag16" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc31" name="Flag17" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc32" name="Flag18" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc33" name="Flag19" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc34" name="Flag20" type="custom" valuetype="boolean"/>
+            <taskproperty id="tpc35" name="Number6" type="custom" valuetype="double"/>
+            <taskproperty id="tpc36" name="Number7" type="custom" valuetype="double"/>
+            <taskproperty id="tpc37" name="Number8" type="custom" valuetype="double"/>
+            <taskproperty id="tpc38" name="Number9" type="custom" valuetype="double"/>
+            <taskproperty id="tpc39" name="Number10" type="custom" valuetype="double"/>
+            <taskproperty id="tpc40" name="Number11" type="custom" valuetype="double"/>
+            <taskproperty id="tpc41" name="Number12" type="custom" valuetype="double"/>
+            <taskproperty id="tpc42" name="Number13" type="custom" valuetype="double"/>
+            <taskproperty id="tpc43" name="Number14" type="custom" valuetype="double"/>
+            <taskproperty id="tpc44" name="Number15" type="custom" valuetype="double"/>
+            <taskproperty id="tpc45" name="Number16" type="custom" valuetype="double"/>
+            <taskproperty id="tpc46" name="Number17" type="custom" valuetype="double"/>
+            <taskproperty id="tpc47" name="Number18" type="custom" valuetype="double"/>
+            <taskproperty id="tpc48" name="Number19" type="custom" valuetype="double"/>
+            <taskproperty id="tpc49" name="Number20" type="custom" valuetype="double"/>
+        </taskproperties>
+        <task id="1" uid="7bd3c373577e42eca9da8e2461749278" name="1. Planification" color="#000000" meeting="false" start="2023-09-01" duration="10" complete="100" expand="true" cost-manual-value="4690.0" cost-calculated="false">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="2" uid="2d37034162884d339615f6c3e0ec1014" name="Définition des objectifs du site" color="#8cb6ce" meeting="false" start="2023-09-01" duration="2" complete="100" expand="true" cost-manual-value="938.0" cost-calculated="false">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="3" uid="8d992ba4bfd34c6392d6e3a228e049f9" name="Analyse de marché" color="#8cb6ce" meeting="false" start="2023-09-05" duration="4" complete="100" expand="true" cost-manual-value="1876.0" cost-calculated="false">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="4" uid="415545e1e7104e889d041027941478de" name="Choix des fonctionnalités clés" color="#8cb6ce" meeting="false" start="2023-09-11" duration="2" complete="100" expand="true" cost-manual-value="938.0" cost-calculated="false">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="5" uid="f3139927be9b4945a6e809dad8ec5eca" name="Établissement du budget" color="#8cb6ce" meeting="false" start="2023-09-13" duration="2" complete="100" expand="true" cost-manual-value="938.0" cost-calculated="false">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+        <task id="6" uid="b152c8a256864659b47016c57439d6a6" name="2. Conception" color="#000000" meeting="false" start="2023-09-15" duration="20" complete="100" expand="true" cost-manual-value="9380.0" cost-calculated="false">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="7" uid="ca259376d27943ff97dd5be65c932cd3" name="Wireframing et prototypage" color="#8cb6ce" meeting="false" start="2023-09-15" duration="15" complete="100" expand="true" cost-manual-value="3675.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="8" uid="a7370ebafd9f4c5e9c50186a9f3d4ab2" name="Design UX/UI" color="#8cb6ce" meeting="false" start="2023-09-15" duration="15" complete="100" expand="true" cost-manual-value="3360.0" cost-calculated="false">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="9" uid="efbe6d1f10b54677b4a7648d7759501b" name="Validation des maquettes" color="#8cb6ce" meeting="false" start="2023-10-06" duration="5" complete="100" expand="true" cost-manual-value="2345.0" cost-calculated="false">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+        <task id="10" uid="d1cb4812ba87433197753629527d8221" name="3. Développement" color="#000000" meeting="false" start="2023-10-13" duration="35" complete="57" expand="true" cost-manual-value="16415.0" cost-calculated="false">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="11" uid="a7cffaca18c643dfabe84e9f3fc33281" name="Mise en place de l'architecture technique" color="#8cb6ce" meeting="false" start="2023-10-13" duration="5" complete="100" expand="true" cost-manual-value="2345.0" cost-calculated="false">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="12" uid="d2a2a38d5d07406ab9b9eb1fbe68d813" name="Développement front-end" color="#000000" meeting="false" start="2023-10-20" duration="30" complete="75" expand="true" cost-manual-value="6720.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+                <task id="13" uid="91f58765472d4f4ab1e7f77e02a26624" name="Catalogue de produits" color="#8cb6ce" meeting="false" start="2023-10-20" duration="10" complete="100" expand="true" cost-manual-value="2240.0" cost-calculated="false">
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+                <task id="14" uid="a8dbfe2f9fac4f71ae05d8df4fa8e88e" name="Panier d'achat" color="#8cb6ce" meeting="false" start="2023-11-03" duration="10" complete="100" expand="true" cost-manual-value="2240.0" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+                <task id="15" uid="e948ba929e8140a88836fbc1d60ac28c" name="Processus de paiement" color="#8cb6ce" meeting="false" start="2023-11-17" duration="10" complete="25" expand="true" cost-manual-value="2240.0" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+            </task>
+            <task id="16" uid="f78655ed28a84abd9916258f8d2b0f82" name="Développement back-end" color="#000000" meeting="false" start="2023-10-20" duration="30" complete="33" expand="true" cost-manual-value="7350.000000000001" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+                <task id="17" uid="c3ba1709f6bb4025b199681e4e4744cd" name="Base de données" color="#8cb6ce" meeting="false" start="2023-10-20" duration="5" complete="100" expand="true" cost-manual-value="1225.0000000000002" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+                <task id="18" uid="4bd830b2a666417fb1ec354e6eb0fb96" name="Intégration API pour paiements" color="#8cb6ce" meeting="false" start="2023-10-27" duration="10" complete="50" expand="true" cost-manual-value="2450.0000000000005" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+                <task id="19" uid="32f90a94c2c0429488fa79296b16711b" name="Sécurité et authentification" color="#8cb6ce" meeting="false" start="2023-11-10" duration="10" complete="0" expand="true" cost-manual-value="2450.0000000000005" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+                <task id="20" uid="3634389cb5104c8c8796020160e8462d" name="Test unitaires" color="#8cb6ce" meeting="false" start="2023-11-24" duration="5" complete="0" expand="true" cost-manual-value="1225.0000000000002" cost-calculated="false">
+                    <customproperty taskproperty-id="tpc0" value="false"/>
+                    <customproperty taskproperty-id="tpc1" value="false"/>
+                    <customproperty taskproperty-id="tpc2" value="false"/>
+                    <customproperty taskproperty-id="tpc3" value="false"/>
+                    <customproperty taskproperty-id="tpc4" value="false"/>
+                    <customproperty taskproperty-id="tpc5" value="false"/>
+                    <customproperty taskproperty-id="tpc6" value="false"/>
+                    <customproperty taskproperty-id="tpc7" value="false"/>
+                    <customproperty taskproperty-id="tpc8" value="false"/>
+                    <customproperty taskproperty-id="tpc9" value="false"/>
+                    <customproperty taskproperty-id="tpc10" value="0.0"/>
+                    <customproperty taskproperty-id="tpc11" value="0.0"/>
+                    <customproperty taskproperty-id="tpc12" value="0.0"/>
+                    <customproperty taskproperty-id="tpc13" value="0.0"/>
+                    <customproperty taskproperty-id="tpc14" value="0.0"/>
+                    <customproperty taskproperty-id="tpc15" value="0.0"/>
+                    <customproperty taskproperty-id="tpc16" value="0.0"/>
+                    <customproperty taskproperty-id="tpc17" value="0.0"/>
+                    <customproperty taskproperty-id="tpc18" value="0.0"/>
+                    <customproperty taskproperty-id="tpc19" value="0.0"/>
+                    <customproperty taskproperty-id="tpc20" value="0.0"/>
+                    <customproperty taskproperty-id="tpc21" value="0.0"/>
+                    <customproperty taskproperty-id="tpc22" value="0.0"/>
+                    <customproperty taskproperty-id="tpc23" value="0.0"/>
+                    <customproperty taskproperty-id="tpc24" value="0.0"/>
+                    <customproperty taskproperty-id="tpc25" value="false"/>
+                    <customproperty taskproperty-id="tpc26" value="false"/>
+                    <customproperty taskproperty-id="tpc27" value="false"/>
+                    <customproperty taskproperty-id="tpc28" value="false"/>
+                    <customproperty taskproperty-id="tpc29" value="false"/>
+                    <customproperty taskproperty-id="tpc30" value="false"/>
+                    <customproperty taskproperty-id="tpc31" value="false"/>
+                    <customproperty taskproperty-id="tpc32" value="false"/>
+                    <customproperty taskproperty-id="tpc33" value="false"/>
+                    <customproperty taskproperty-id="tpc34" value="false"/>
+                    <customproperty taskproperty-id="tpc35" value="0.0"/>
+                    <customproperty taskproperty-id="tpc36" value="0.0"/>
+                    <customproperty taskproperty-id="tpc37" value="0.0"/>
+                    <customproperty taskproperty-id="tpc38" value="0.0"/>
+                    <customproperty taskproperty-id="tpc39" value="0.0"/>
+                    <customproperty taskproperty-id="tpc40" value="0.0"/>
+                    <customproperty taskproperty-id="tpc41" value="0.0"/>
+                    <customproperty taskproperty-id="tpc42" value="0.0"/>
+                    <customproperty taskproperty-id="tpc43" value="0.0"/>
+                    <customproperty taskproperty-id="tpc44" value="0.0"/>
+                    <customproperty taskproperty-id="tpc45" value="0.0"/>
+                    <customproperty taskproperty-id="tpc46" value="0.0"/>
+                    <customproperty taskproperty-id="tpc47" value="0.0"/>
+                    <customproperty taskproperty-id="tpc48" value="0.0"/>
+                    <customproperty taskproperty-id="tpc49" value="0.0"/>
+                </task>
+            </task>
+        </task>
+        <task id="21" uid="6bbee9eb122d44bba10a3f38aaf2a410" name="4. Contenu" color="#000000" meeting="false" start="2023-12-01" duration="15" complete="0" expand="true" cost-manual-value="3360.0" cost-calculated="false">
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="22" uid="7a97b2bb8c744778b96c7adce2b88982" name="Rédaction des descriptions de produits" color="#8cb6ce" meeting="false" start="2023-12-01" duration="10" complete="0" expand="true" cost-manual-value="2240.0" cost-calculated="false">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="23" uid="9acce85cd41f495da7a71baf9276f649" name="Photographie des produits" color="#8cb6ce" meeting="false" start="2023-12-15" duration="5" complete="0" expand="true" cost-manual-value="1120.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+        <task id="24" uid="3bcf5c54b1464becb9dac4a5edd13d6c" name="5. Tests et QA" color="#000000" meeting="false" start="2023-12-01" duration="25" complete="0" expand="true" cost-manual-value="8365.0" cost-calculated="false">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="25" uid="c5cf1af7366943a2b8dcfa9f80a6ff53" name="Tests fonctionnels" color="#8cb6ce" meeting="false" start="2023-12-01" duration="10" complete="0" expand="true" cost-manual-value="2450.0000000000005" cost-calculated="false">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="26" uid="afbd40bc64704be4a72a2045b8091242" name="Correction des bugs" color="#8cb6ce" meeting="false" start="2023-12-15" duration="5" complete="0" expand="true" cost-manual-value="1225.0000000000002" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="27" uid="0e649fec8b1b40e4b7a6dbc7db20e807" name="Tests de charge et performance" color="#8cb6ce" meeting="false" start="2023-12-22" duration="10" complete="0" expand="true" cost-manual-value="4690.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+        <task id="28" uid="9b039213dfcd44b993ffcc597c29dc73" name="6. Lancement" color="#000000" meeting="false" start="2024-01-05" duration="15" complete="0" expand="true" cost-manual-value="7035.0" cost-calculated="false">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="29" uid="dbef2d29ceb24e4693b711c48a090347" name="Mise en production" color="#8cb6ce" meeting="false" start="2024-01-05" duration="5" complete="0" expand="true" cost-manual-value="2345.0" cost-calculated="false">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="30" uid="a90502316b554783b48edf9684a2cd30" name="Monitoring initial" color="#8cb6ce" meeting="false" start="2024-01-12" duration="10" complete="0" expand="true" cost-manual-value="4690.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+        <task id="31" uid="8ee4c9f5565d470a88bfe02ae3552840" name="7. Marketing et SEO" color="#000000" meeting="false" start="2024-01-26" duration="10" complete="0" expand="true" cost-manual-value="4690.0" cost-calculated="false">
+            <customproperty taskproperty-id="tpc0" value="false"/>
+            <customproperty taskproperty-id="tpc1" value="false"/>
+            <customproperty taskproperty-id="tpc2" value="false"/>
+            <customproperty taskproperty-id="tpc3" value="false"/>
+            <customproperty taskproperty-id="tpc4" value="false"/>
+            <customproperty taskproperty-id="tpc5" value="false"/>
+            <customproperty taskproperty-id="tpc6" value="false"/>
+            <customproperty taskproperty-id="tpc7" value="false"/>
+            <customproperty taskproperty-id="tpc8" value="false"/>
+            <customproperty taskproperty-id="tpc9" value="false"/>
+            <customproperty taskproperty-id="tpc10" value="0.0"/>
+            <customproperty taskproperty-id="tpc11" value="0.0"/>
+            <customproperty taskproperty-id="tpc12" value="0.0"/>
+            <customproperty taskproperty-id="tpc13" value="0.0"/>
+            <customproperty taskproperty-id="tpc14" value="0.0"/>
+            <customproperty taskproperty-id="tpc15" value="0.0"/>
+            <customproperty taskproperty-id="tpc16" value="0.0"/>
+            <customproperty taskproperty-id="tpc17" value="0.0"/>
+            <customproperty taskproperty-id="tpc18" value="0.0"/>
+            <customproperty taskproperty-id="tpc19" value="0.0"/>
+            <customproperty taskproperty-id="tpc20" value="0.0"/>
+            <customproperty taskproperty-id="tpc21" value="0.0"/>
+            <customproperty taskproperty-id="tpc22" value="0.0"/>
+            <customproperty taskproperty-id="tpc23" value="0.0"/>
+            <customproperty taskproperty-id="tpc24" value="0.0"/>
+            <customproperty taskproperty-id="tpc25" value="false"/>
+            <customproperty taskproperty-id="tpc26" value="false"/>
+            <customproperty taskproperty-id="tpc27" value="false"/>
+            <customproperty taskproperty-id="tpc28" value="false"/>
+            <customproperty taskproperty-id="tpc29" value="false"/>
+            <customproperty taskproperty-id="tpc30" value="false"/>
+            <customproperty taskproperty-id="tpc31" value="false"/>
+            <customproperty taskproperty-id="tpc32" value="false"/>
+            <customproperty taskproperty-id="tpc33" value="false"/>
+            <customproperty taskproperty-id="tpc34" value="false"/>
+            <customproperty taskproperty-id="tpc35" value="0.0"/>
+            <customproperty taskproperty-id="tpc36" value="0.0"/>
+            <customproperty taskproperty-id="tpc37" value="0.0"/>
+            <customproperty taskproperty-id="tpc38" value="0.0"/>
+            <customproperty taskproperty-id="tpc39" value="0.0"/>
+            <customproperty taskproperty-id="tpc40" value="0.0"/>
+            <customproperty taskproperty-id="tpc41" value="0.0"/>
+            <customproperty taskproperty-id="tpc42" value="0.0"/>
+            <customproperty taskproperty-id="tpc43" value="0.0"/>
+            <customproperty taskproperty-id="tpc44" value="0.0"/>
+            <customproperty taskproperty-id="tpc45" value="0.0"/>
+            <customproperty taskproperty-id="tpc46" value="0.0"/>
+            <customproperty taskproperty-id="tpc47" value="0.0"/>
+            <customproperty taskproperty-id="tpc48" value="0.0"/>
+            <customproperty taskproperty-id="tpc49" value="0.0"/>
+            <task id="32" uid="fd64cfb8c42e4dd7a4bc22d22c2a832a" name="Campagnes publicitaires" color="#8cb6ce" meeting="false" start="2024-01-26" duration="5" complete="0" expand="true" cost-manual-value="1120.0" cost-calculated="false">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="33" uid="f731a7075bdb4e61ac12df5d2522d810" name="Optimisation SEO" color="#8cb6ce" meeting="false" start="2024-02-02" duration="5" complete="0" expand="true" cost-manual-value="1120.0" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+            <task id="34" uid="08139d5e081d4c7496be69b8ba559dbe" name="Mise en place d'outils d'analyse et suivi" color="#8cb6ce" meeting="false" start="2024-01-26" duration="10" complete="0" expand="true" cost-manual-value="2450.0000000000005" cost-calculated="false">
+                <customproperty taskproperty-id="tpc0" value="false"/>
+                <customproperty taskproperty-id="tpc1" value="false"/>
+                <customproperty taskproperty-id="tpc2" value="false"/>
+                <customproperty taskproperty-id="tpc3" value="false"/>
+                <customproperty taskproperty-id="tpc4" value="false"/>
+                <customproperty taskproperty-id="tpc5" value="false"/>
+                <customproperty taskproperty-id="tpc6" value="false"/>
+                <customproperty taskproperty-id="tpc7" value="false"/>
+                <customproperty taskproperty-id="tpc8" value="false"/>
+                <customproperty taskproperty-id="tpc9" value="false"/>
+                <customproperty taskproperty-id="tpc10" value="0.0"/>
+                <customproperty taskproperty-id="tpc11" value="0.0"/>
+                <customproperty taskproperty-id="tpc12" value="0.0"/>
+                <customproperty taskproperty-id="tpc13" value="0.0"/>
+                <customproperty taskproperty-id="tpc14" value="0.0"/>
+                <customproperty taskproperty-id="tpc15" value="0.0"/>
+                <customproperty taskproperty-id="tpc16" value="0.0"/>
+                <customproperty taskproperty-id="tpc17" value="0.0"/>
+                <customproperty taskproperty-id="tpc18" value="0.0"/>
+                <customproperty taskproperty-id="tpc19" value="0.0"/>
+                <customproperty taskproperty-id="tpc20" value="0.0"/>
+                <customproperty taskproperty-id="tpc21" value="0.0"/>
+                <customproperty taskproperty-id="tpc22" value="0.0"/>
+                <customproperty taskproperty-id="tpc23" value="0.0"/>
+                <customproperty taskproperty-id="tpc24" value="0.0"/>
+                <customproperty taskproperty-id="tpc25" value="false"/>
+                <customproperty taskproperty-id="tpc26" value="false"/>
+                <customproperty taskproperty-id="tpc27" value="false"/>
+                <customproperty taskproperty-id="tpc28" value="false"/>
+                <customproperty taskproperty-id="tpc29" value="false"/>
+                <customproperty taskproperty-id="tpc30" value="false"/>
+                <customproperty taskproperty-id="tpc31" value="false"/>
+                <customproperty taskproperty-id="tpc32" value="false"/>
+                <customproperty taskproperty-id="tpc33" value="false"/>
+                <customproperty taskproperty-id="tpc34" value="false"/>
+                <customproperty taskproperty-id="tpc35" value="0.0"/>
+                <customproperty taskproperty-id="tpc36" value="0.0"/>
+                <customproperty taskproperty-id="tpc37" value="0.0"/>
+                <customproperty taskproperty-id="tpc38" value="0.0"/>
+                <customproperty taskproperty-id="tpc39" value="0.0"/>
+                <customproperty taskproperty-id="tpc40" value="0.0"/>
+                <customproperty taskproperty-id="tpc41" value="0.0"/>
+                <customproperty taskproperty-id="tpc42" value="0.0"/>
+                <customproperty taskproperty-id="tpc43" value="0.0"/>
+                <customproperty taskproperty-id="tpc44" value="0.0"/>
+                <customproperty taskproperty-id="tpc45" value="0.0"/>
+                <customproperty taskproperty-id="tpc46" value="0.0"/>
+                <customproperty taskproperty-id="tpc47" value="0.0"/>
+                <customproperty taskproperty-id="tpc48" value="0.0"/>
+                <customproperty taskproperty-id="tpc49" value="0.0"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="Number1" type="double"/>
+        <custom-property-definition id="tpc1" name="Number2" type="double"/>
+        <custom-property-definition id="tpc2" name="Number3" type="double"/>
+        <custom-property-definition id="tpc3" name="Number4" type="double"/>
+        <custom-property-definition id="tpc4" name="Number5" type="double"/>
+        <custom-property-definition id="tpc5" name="Cost1" type="double"/>
+        <custom-property-definition id="tpc6" name="Cost2" type="double"/>
+        <custom-property-definition id="tpc7" name="Cost3" type="double"/>
+        <custom-property-definition id="tpc8" name="Flag10" type="boolean"/>
+        <custom-property-definition id="tpc9" name="Flag1" type="boolean"/>
+        <custom-property-definition id="tpc10" name="Flag2" type="boolean"/>
+        <custom-property-definition id="tpc11" name="Flag3" type="boolean"/>
+        <custom-property-definition id="tpc12" name="Flag4" type="boolean"/>
+        <custom-property-definition id="tpc13" name="Flag5" type="boolean"/>
+        <custom-property-definition id="tpc14" name="Flag6" type="boolean"/>
+        <custom-property-definition id="tpc15" name="Flag7" type="boolean"/>
+        <custom-property-definition id="tpc16" name="Flag8" type="boolean"/>
+        <custom-property-definition id="tpc17" name="Flag9" type="boolean"/>
+        <custom-property-definition id="tpc18" name="Cost4" type="double"/>
+        <custom-property-definition id="tpc19" name="Cost5" type="double"/>
+        <custom-property-definition id="tpc20" name="Cost6" type="double"/>
+        <custom-property-definition id="tpc21" name="Cost7" type="double"/>
+        <custom-property-definition id="tpc22" name="Cost8" type="double"/>
+        <custom-property-definition id="tpc23" name="Cost9" type="double"/>
+        <custom-property-definition id="tpc24" name="Cost10" type="double"/>
+        <custom-property-definition id="tpc25" name="Flag11" type="boolean"/>
+        <custom-property-definition id="tpc26" name="Flag12" type="boolean"/>
+        <custom-property-definition id="tpc27" name="Flag13" type="boolean"/>
+        <custom-property-definition id="tpc28" name="Flag14" type="boolean"/>
+        <custom-property-definition id="tpc29" name="Flag15" type="boolean"/>
+        <custom-property-definition id="tpc30" name="Flag16" type="boolean"/>
+        <custom-property-definition id="tpc31" name="Flag17" type="boolean"/>
+        <custom-property-definition id="tpc32" name="Flag18" type="boolean"/>
+        <custom-property-definition id="tpc33" name="Flag19" type="boolean"/>
+        <custom-property-definition id="tpc34" name="Flag20" type="boolean"/>
+        <custom-property-definition id="tpc35" name="Number6" type="double"/>
+        <custom-property-definition id="tpc36" name="Number7" type="double"/>
+        <custom-property-definition id="tpc37" name="Number8" type="double"/>
+        <custom-property-definition id="tpc38" name="Number9" type="double"/>
+        <custom-property-definition id="tpc39" name="Number10" type="double"/>
+        <custom-property-definition id="tpc40" name="Number11" type="double"/>
+        <custom-property-definition id="tpc41" name="Number12" type="double"/>
+        <custom-property-definition id="tpc42" name="Number13" type="double"/>
+        <custom-property-definition id="tpc43" name="Number14" type="double"/>
+        <custom-property-definition id="tpc44" name="Number15" type="double"/>
+        <custom-property-definition id="tpc45" name="Number16" type="double"/>
+        <custom-property-definition id="tpc46" name="Number17" type="double"/>
+        <custom-property-definition id="tpc47" name="Number18" type="double"/>
+        <custom-property-definition id="tpc48" name="Number19" type="double"/>
+        <custom-property-definition id="tpc49" name="Number20" type="double"/>
+        <resource id="1" name="Jean Backend" function="Default:0" contacts="" phone="">
+            <custom-property definition-id="tpc9" value="false"/>
+            <custom-property definition-id="tpc7" value="0.0"/>
+            <custom-property definition-id="tpc8" value="false"/>
+            <custom-property definition-id="tpc33" value="false"/>
+            <custom-property definition-id="tpc32" value="false"/>
+            <custom-property definition-id="tpc31" value="false"/>
+            <custom-property definition-id="tpc30" value="false"/>
+            <custom-property definition-id="tpc5" value="0.0"/>
+            <custom-property definition-id="tpc6" value="0.0"/>
+            <custom-property definition-id="tpc3" value="0.0"/>
+            <custom-property definition-id="tpc39" value="0.0"/>
+            <custom-property definition-id="tpc4" value="0.0"/>
+            <custom-property definition-id="tpc38" value="0.0"/>
+            <custom-property definition-id="tpc1" value="0.0"/>
+            <custom-property definition-id="tpc37" value="0.0"/>
+            <custom-property definition-id="tpc2" value="0.0"/>
+            <custom-property definition-id="tpc36" value="0.0"/>
+            <custom-property definition-id="tpc35" value="0.0"/>
+            <custom-property definition-id="tpc0" value="0.0"/>
+            <custom-property definition-id="tpc34" value="false"/>
+            <custom-property definition-id="tpc44" value="0.0"/>
+            <custom-property definition-id="tpc43" value="0.0"/>
+            <custom-property definition-id="tpc42" value="0.0"/>
+            <custom-property definition-id="tpc41" value="0.0"/>
+            <custom-property definition-id="tpc40" value="0.0"/>
+            <custom-property definition-id="tpc49" value="0.0"/>
+            <custom-property definition-id="tpc48" value="0.0"/>
+            <custom-property definition-id="tpc47" value="0.0"/>
+            <custom-property definition-id="tpc46" value="0.0"/>
+            <custom-property definition-id="tpc45" value="0.0"/>
+            <custom-property definition-id="tpc11" value="false"/>
+            <custom-property definition-id="tpc10" value="false"/>
+            <custom-property definition-id="tpc19" value="0.0"/>
+            <custom-property definition-id="tpc18" value="0.0"/>
+            <custom-property definition-id="tpc17" value="false"/>
+            <custom-property definition-id="tpc16" value="false"/>
+            <custom-property definition-id="tpc15" value="false"/>
+            <custom-property definition-id="tpc14" value="false"/>
+            <custom-property definition-id="tpc13" value="false"/>
+            <custom-property definition-id="tpc12" value="false"/>
+            <custom-property definition-id="tpc22" value="0.0"/>
+            <custom-property definition-id="tpc21" value="0.0"/>
+            <custom-property definition-id="tpc20" value="0.0"/>
+            <custom-property definition-id="tpc29" value="false"/>
+            <custom-property definition-id="tpc28" value="false"/>
+            <custom-property definition-id="tpc27" value="false"/>
+            <custom-property definition-id="tpc26" value="false"/>
+            <custom-property definition-id="tpc25" value="false"/>
+            <custom-property definition-id="tpc24" value="0.0"/>
+            <custom-property definition-id="tpc23" value="0.0"/>
+        </resource>
+        <resource id="2" name="Elise Frontend" function="Default:0" contacts="" phone="">
+            <custom-property definition-id="tpc9" value="false"/>
+            <custom-property definition-id="tpc7" value="0.0"/>
+            <custom-property definition-id="tpc8" value="false"/>
+            <custom-property definition-id="tpc33" value="false"/>
+            <custom-property definition-id="tpc32" value="false"/>
+            <custom-property definition-id="tpc31" value="false"/>
+            <custom-property definition-id="tpc30" value="false"/>
+            <custom-property definition-id="tpc5" value="0.0"/>
+            <custom-property definition-id="tpc6" value="0.0"/>
+            <custom-property definition-id="tpc3" value="0.0"/>
+            <custom-property definition-id="tpc39" value="0.0"/>
+            <custom-property definition-id="tpc4" value="0.0"/>
+            <custom-property definition-id="tpc38" value="0.0"/>
+            <custom-property definition-id="tpc1" value="0.0"/>
+            <custom-property definition-id="tpc37" value="0.0"/>
+            <custom-property definition-id="tpc2" value="0.0"/>
+            <custom-property definition-id="tpc36" value="0.0"/>
+            <custom-property definition-id="tpc35" value="0.0"/>
+            <custom-property definition-id="tpc0" value="0.0"/>
+            <custom-property definition-id="tpc34" value="false"/>
+            <custom-property definition-id="tpc44" value="0.0"/>
+            <custom-property definition-id="tpc43" value="0.0"/>
+            <custom-property definition-id="tpc42" value="0.0"/>
+            <custom-property definition-id="tpc41" value="0.0"/>
+            <custom-property definition-id="tpc40" value="0.0"/>
+            <custom-property definition-id="tpc49" value="0.0"/>
+            <custom-property definition-id="tpc48" value="0.0"/>
+            <custom-property definition-id="tpc47" value="0.0"/>
+            <custom-property definition-id="tpc46" value="0.0"/>
+            <custom-property definition-id="tpc45" value="0.0"/>
+            <custom-property definition-id="tpc11" value="false"/>
+            <custom-property definition-id="tpc10" value="false"/>
+            <custom-property definition-id="tpc19" value="0.0"/>
+            <custom-property definition-id="tpc18" value="0.0"/>
+            <custom-property definition-id="tpc17" value="false"/>
+            <custom-property definition-id="tpc16" value="false"/>
+            <custom-property definition-id="tpc15" value="false"/>
+            <custom-property definition-id="tpc14" value="false"/>
+            <custom-property definition-id="tpc13" value="false"/>
+            <custom-property definition-id="tpc12" value="false"/>
+            <custom-property definition-id="tpc22" value="0.0"/>
+            <custom-property definition-id="tpc21" value="0.0"/>
+            <custom-property definition-id="tpc20" value="0.0"/>
+            <custom-property definition-id="tpc29" value="false"/>
+            <custom-property definition-id="tpc28" value="false"/>
+            <custom-property definition-id="tpc27" value="false"/>
+            <custom-property definition-id="tpc26" value="false"/>
+            <custom-property definition-id="tpc25" value="false"/>
+            <custom-property definition-id="tpc24" value="0.0"/>
+            <custom-property definition-id="tpc23" value="0.0"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -1,0 +1,130 @@
+{#
+meuble (dictionnaire)
+id_meuble, nom, type_meuble_id, prix, image
+    * option :
+        * stock ,
+        * nb_avis ,
+        * nb_declinaisons
+
+types_meuble : tableau de dictionnaires
+* tableau de "type_meuble"
+    * id_type_meuble, libelle
+#}
+
+{% extends 'admin/layout_admin.html' %}
+{% block title %}
+    <title>modifier un meuble</title>
+{% endblock %}
+
+{% block body %}
+    <h2>modifier un meuble</h2>
+    <div class="row mt-5">
+        {% if meuble.image_meuble is not none %}
+            <img class="card-img-top rounded mx-4 d-block"
+                 style="width:200px; height:200px; border: 1px solid black; padding: 25px;" id="img_output"
+                 src="{{ url_for('static', filename = 'images/') }}{{ meuble.image_meuble }}"
+                 alt="image  de {{ meuble.nom_meuble }}">
+        {% endif %}
+        <div class="w-25">
+            <form class="w-190" method="post" action="/admin/meuble/edit" enctype="multipart/form-data">
+                <input type="hidden" value="{{ meuble.id_meuble }}" name="id_meuble">
+                <label for="nom">Nom :
+                    <input name="nom" type="text" value="{{ meuble.nom_meuble }}" class="form-control">
+                </label>
+                <label for="prix"> Prix (€) :
+                    <input name="prix" type="number" min="0.0" step="0.01" value="{{ meuble.prix }}"
+                           class="form-control">
+                </label>
+                <label for="image">Image : {# à modifier #}
+                    <input name="image" onchange="loadFile(event)" type="file" class="form-control"
+                           value="{{ meuble.image_meuble }}"> {# à modifier #}
+                </label> {# à modifier #}
+                {#                https://blog.miguelgrinberg.com/post/handling-file-uploads-with-flask#}
+
+                <label for="type_meuble_id">Type de meuble :
+                    <select name="type_meuble_id" class="form-select">
+                        {% for type in types_meuble %}
+                            <option value="{{ type.id_type_meuble }}"
+                                    {% if type.id_type_meuble == meuble.type_meuble_id %}
+                                    selected {% endif %}> {{ type.libelle }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+                <label for="description">Description :
+                    <input name="description" type="text" value="{{ meuble.description }}" class="form-control">
+                </label>
+                <label for="stock">Stock :
+                    <input name="stock" type="number" value="{{ meuble.stock }}" class="form-control">
+                </label>
+
+                <button class="btn btn-primary mt-2">
+                    Modifier
+                </button>
+                <a class="btn btn-secondary mt-2" href="/admin/meuble/show" role="button">retour</a>
+            </form>
+
+            <div class="container-fluid " style="width: 1000px;">
+
+                <div style="display: flex; justify-content: space-between">
+                    <h3>déclinaison en fonction de la taille/couleur (variante)</h3>
+                    <a class="img-fluid" href="/admin/declinaison_meuble/add?id_meuble={{ meuble.id_meuble }}">
+                        <button class="btn btn-primary">
+                            Ajouter une déclinaison (variante)
+                        </button>
+                    </a>
+                </div>
+                <table class="table table-hover table-responsive">
+
+                    <th style="width: 300px">taille</th>
+                    <th style="width: 300px">couleur</th>
+                    <th style="width: 300px">stock</th>
+                    <th style="width: 300px">opérations</th>* FROM
+
+                    {% if declinaisons_meuble | length == 0 %}
+                        <tr>
+                            <td>Aucun modèle</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    {% else %}
+                        {% for declinaison_meuble in declinaisons_meuble %}
+                            <tr>
+                                <td>
+                                    {{ declinaison_meuble.libelle_taille }}
+                                </td>
+                                <td>
+                                    {{ declinaison_meuble.libelle_couleur }}
+                                </td>
+                                <td>{{ declinaison_meuble.stock }}</td>
+                                <td style="display: flex">
+                                    <a class="img-fluid"
+                                       href="/admin/declinaison_meuble/delete?id_declinaison_meuble={{ declinaison_meuble.id_declinaison_meuble }}&amp;id_meuble={{ declinaison_meuble.meuble_id }}">
+                                        <button class="btn btn-primary mx-1">
+                                            supprimer
+                                        </button>
+                                    </a>
+                                    <a class="img-fluid"
+                                       href="/admin/declinaison_meuble/edit?id_declinaison_meuble={{ declinaison_meuble.id_declinaison_meuble }}">
+                                        <button class="btn btn-primary mx-1">
+                                            editer
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                </table>
+
+            </div>
+
+        </div>
+        {% if pb_taille_uniq is defined and pb_taille_uniq==1 %}
+            <br>
+            <span style="color: #fd7e14">(⚠️ pb sur les tailles : une taille unique est définie avec d'autres tailles)</span>
+        {% endif %}
+        {% if pb_couleur_uniq is defined and pb_couleur_uniq==1 %}
+            <br><span style="color: #fd7e14">(⚠️ pb sur les couleurs : une couleur unique est définie avec d'autres couleurs)</span>
+        {% endif %}
+    </div>
+{% endblock %}
