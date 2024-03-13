@@ -198,26 +198,6 @@ Chaque étudiant doit réaliser une(des) requêtes sur les données de sa partie
 
 - Il n’est pas nécessaire que toutes les parties fonctionnent ensemble, il n’est pas nécessaire de mettre l’application sur l’hébergeur pythonanywhere ; **validation : oral de 5/10mn en TP devant une machine de l’IUT**
 
----
-
-- Déposer votre code source sur moodle
-
-Pour le dernier livrable, la date de rendu est prise en compte. Une petite partie de la note prend en compte que le travail est été fait quelques jours avant la **deadline** (date limite) et si la présentation a été effectué avant ou après la **deadline** (date limite)
-
-- Autre évaluation : note anglais
-
-oral anglais (voir avec Mme Couturier)
-
-# idée sur des coefficients des évaluations et livrables (approximatif) en 2022
-
-- Note de M. Noura : coef 1 (visualisation de données)
-- Note de Mme Couturier : coef 1
-- Note de M Millet : coef 8
-    - livrable 1 : 0,5
-    - livrable 2 : 2
-    - contrôle MLD/MCD : 1,5
-    - livrable 3 : 4
-
 # annexes
 
 - https://www.developpez.net/forums/d2106513/general-developpement/alm/modelisation/schema/avis-mcd-site-e-commerce-vetements/
