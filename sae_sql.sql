@@ -163,10 +163,10 @@ INSERT INTO utilisateur (login,email,nom_utilisateur,password,`role`,est_actif) 
 	 ('client2','client2@client2.fr','Jack Séparou','pbkdf2:sha256:600000$3YgdGN0QUT1jjZVN$baa9787abd4decedc328ed56d86939ce816c756ff6d94f4e4191ffc9bf357348','ROLE_client',1);
 
 INSERT INTO adresse (nom_adresse,rue,code_postal,ville,valide) VALUES
-	 ('Crêperie les Tonnelles','101 Av. du Maréchal Foch','92210','Saint-Cloud',1),
+	 ('Crêperie les Tonnelles','101 Av. du Maréchal Foch','93210','Saint-Cloud',1),
 	 ('Residhome Paris Issy-les-Moulineaux','22-24 Rue du Passeur de Boulogne','92130','Issy-les-Moulineaux',1),
-	 ('Fausse adresse','Boulevard not','06401','Cdds',0),
-	 ('DSI Group','41 Av. du Général Leclerc','92350','Le Plessis-Robinson',1);
+	 ('Jack Séparou Maison','Boulevard not','06401','Cdds',1),
+	 ('DSI Group','41 Av. du Général Leclerc','90350','Le Plessis-Robinson',1);
 
 INSERT INTO etat (libelle_etat) VALUES
 	 ('En attente'),
@@ -212,7 +212,8 @@ INSERT INTO commande (date_achat,adresse_id_livr,etat_id,utilisateur_id,adresse_
 	 ('2024-01-02 00:00:00',2,1,2,2),
 	 ('2024-01-03 00:00:00',4,2,3,4),
 	 ('2024-01-04 00:00:00',4,3,3,4),
-	 ('2023-03-03 00:00:00',2,4,2,2);
+	 ('2023-03-03 00:00:00',2,4,2,2),
+     ('2023-03-03 00:00:00',3,4,2,3);
 
 INSERT INTO meuble (nom_meuble,disponible,prix_meuble,description_meuble,image_meuble,type_meuble_id) VALUES
 	 ('Etagère déstructuré',1,819.0000,'Une étagère fort sympathique.','1.jpg',1),
@@ -285,53 +286,32 @@ INSERT INTO concerne (utilisateur_id,adresse_id) VALUES
 	 (3,4);
 
 INSERT INTO ligne_commande (commande_id,declinaison_meuble_id,quantite_lc,prix_lc) VALUES
-	 (1,1,2,819.0000),
-	 (1,2,1,419.0000),
-	 (2,3,3,799.0000),
-	 (3,1,1,819.0000),
-	 (4,1,11,819.0000),
-	 (4,2,5,419.0000),
-	 (4,3,4,799.0000),
-	 (4,4,12,976.0000),
-	 (4,5,6,1427.0000),
-	 (4,6,6,1725.0000),
-	 (4,7,1,700.0000),
-	 (4,8,2,345.0000),
-	 (4,9,2,518.0000),
-	 (4,10,6,159.0000),
-	 (4,11,9,159.0000),
-	 (4,12,13,226.0000),
-	 (4,13,13,56.0000),
-	 (4,14,12,57.0000),
-	 (4,15,2,58.0000),
-	 (4,16,2,62.0000),
-	 (4,17,5,65.0000),
-	 (4,18,3,66.0000),
-	 (4,19,25,62.0000),
-	 (4,20,16,65.0000),
-	 (4,21,11,65.0000),
-	 (4,22,7,65.0000),
-	 (4,23,7,895.0000),
-	 (4,24,4,950.0000),
-	 (4,25,2,1450.0000),
-	 (4,26,1,425.0000),
-	 (4,27,5,2250.0000),
-	 (4,28,6,1400.0000),
-	 (4,29,21,750.0000),
-	 (4,30,2,750.0000),
-	 (4,31,5,75.0000),
-	 (4,32,6,75.0000),
-	 (4,33,7,72.0000),
-	 (4,34,16,73.0000),
-	 (4,35,23,150.0000),
-	 (4,36,2,145.0000),
-	 (4,38,5,145.0000),
-	 (4,39,6,155.0000),
-	 (5,1,2,819.0000),
-	 (5,2,1,419.0000),
-	 (5,3,3,799.0000),
-	 (5,25,2,1445.0000),
-	 (5,34,11,75.0000);
+	(1,1,2,819.0000),
+	(1,2,1,419.0000),
+	(2,3,3,799.0000),
+	(3,1,1,819.0000),
+	(4,1,11,819.0000),
+	(4,2,5,419.0000),
+	(4,3,4,799.0000),
+	(4,4,12,976.0000),
+	(4,5,6,1427.0000),
+	(4,31,5,75.0000),
+	(4,32,6,75.0000),
+	(4,33,7,72.0000),
+	(4,34,16,73.0000),
+	(4,35,23,150.0000),
+	(4,36,2,145.0000),
+	(4,38,5,145.0000),
+	(4,39,6,155.0000),
+	(5,1,2,819.0000),
+	(5,2,1,419.0000),
+	(5,3,3,799.0000),
+	(5,25,2,1445.0000),
+	(5,34,11,75.0000),
+    (5,35,12,150.0000),
+    (6,31,2,75.0000),
+    (6,32,1,75.0000),
+    (6,33,3,72.0000);
 
 INSERT INTO ligne_panier (utilisateur_id,declinaison_meuble_id,date_ajout,quantite_lp) VALUES
 	 (1,1,'2024-01-01 00:00:00',2),
@@ -423,3 +403,38 @@ select *
 from note n
 join meuble m on m.id_meuble = n.meuble_id
 join utilisateur u on u.id_utilisateur = n.utilisateur_id;
+
+drop view if exists v_commande;
+create view if not exists v_commande as
+select `c`.`id_commande`     AS `id_commande`,
+       `c`.`date_achat`      AS `date_achat`,
+       `c`.`etat_id`         AS `etat_id`,
+       `c`.`utilisateur_id`  AS `utilisateur_id`,
+       `c`.`adresse_id_fact` AS `adresse_id_fact`,
+       `a`.`id_adresse`      AS `id_adresse_fact`,
+       `a`.`nom_adresse`     AS `nom_adresse_fact`,
+       `a`.`rue`             AS `rue_adresse_fact`,
+       `a`.`code_postal`     AS `code_postal_fact`,
+       `a`.`ville`           AS `ville_fact`,
+       `a`.`valide`          AS `valide_fact`,
+       `c`.`adresse_id_livr` AS `adresse_id_livr`,
+       `a2`.`id_adresse`     AS `id_adresse_livr`,
+       `a2`.`nom_adresse`    AS `nom_adresse_livr`,
+       `a2`.`rue`            AS `rue_livr`,
+       `a2`.`code_postal`    AS `code_postal_livr`,
+       `a2`.`ville`          AS `ville_livr`,
+       `a2`.`valide`         AS `valide_livr`,
+       `e`.`id_etat`         AS `id_etat`,
+       `e`.`libelle_etat`    AS `libelle_etat`,
+       `u`.`id_utilisateur`  AS `id_utilisateur`,
+       `u`.`login`           AS `login`,
+       `u`.`email`           AS `email`,
+       `u`.`nom_utilisateur` AS `nom_utilisateur`,
+       `u`.`password`        AS `password`,
+       `u`.`role`            AS `role`,
+       `u`.`est_actif`       AS `est_actif`
+from ((((`commande` `c` join `adresse` `a`
+         on (`c`.`adresse_id_fact` = `a`.`id_adresse`)) join `adresse` `a2`
+        on (`a2`.`id_adresse` = `c`.`adresse_id_livr`)) join `etat` `e`
+       on (`c`.`etat_id` = `e`.`id_etat`)) join `utilisateur` `u`
+      on (`c`.`utilisateur_id` = `u`.`id_utilisateur`));
