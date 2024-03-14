@@ -157,6 +157,7 @@ def client_commande_show():
     sql = '''
     SELECT
     id_commande,
+    etat_id,
     date_achat,
     libelle_etat AS libelle,
     SUM(quantite_lc) AS nbr_meubles,
