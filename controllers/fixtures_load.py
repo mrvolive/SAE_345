@@ -497,7 +497,7 @@ join utilisateur u on u.id_utilisateur = n.utilisateur_id;
     mycursor.execute(sql)
     
     sql = '''
-create view if not exists v_commande as
+create view v_commande as
 select `c`.`id_commande`     AS `id_commande`,
        `c`.`date_achat`      AS `date_achat`,
        `c`.`etat_id`         AS `etat_id`,
