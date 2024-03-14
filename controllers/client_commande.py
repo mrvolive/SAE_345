@@ -27,7 +27,7 @@ def client_commande_valide():
             JOIN declinaison_meuble ON ligne_panier.declinaison_meuble_id = declinaison_meuble.id_declinaison_meuble
             WHERE utilisateur_id = %s;
         '''
-        mycursor.execute(sql, id_client)
+        mycomaravalrsor.execute(sql, id_client)
         prix_total = mycursor.fetchone()
     else:
         prix_total = None
@@ -155,7 +155,8 @@ def client_commande_show():
     #         date_achat DESC;
     # '''
     sql = '''
-    SELECT * ,
+    SELECT
+    id_commande,
     date_achat,
     libelle_etat AS libelle,
     SUM(quantite_lc) AS nbr_meubles,
